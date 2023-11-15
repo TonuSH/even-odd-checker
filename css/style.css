@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+h2{
+    padding: 10px;
+}
+.even_odd{
+    background-color:#F7DC6F;
+    padding: 20px;
+    border-radius: 8px;
+    width:100vh;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(238, 236, 96, 0.8);
+}
+label{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+input{
+    width:100%;
+    padding:8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+button{
+    background-color: #BA4A00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: #9C640C ;
+}
+#result{
+    margin-top: 20px;
+    font-weight: bold;
+}
